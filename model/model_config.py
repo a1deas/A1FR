@@ -1,2 +1,2 @@
 # Models
-MODEL_NAME = "blanchefort/rubert-base-cased-sentiment"
+MODEL_NAME = "tabularisai/multilingual-sentiment-analysis"
