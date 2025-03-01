@@ -20,12 +20,12 @@ class MainWindow(QMainWindow):
         layout = QVBoxLayout()
 
         # Chat
-        self.chat_area = QLabel("I am Ready to answer", self)
+        self.chat_area = QLabel("I am Ready to analyse your input", self)
         self.chat_area.setAlignment(Qt.AlignmentFlag.AlignHCenter)
         layout.addWidget(self.chat_area)
 
-        self.output_label = QLabel("Sentiment: None", self)
-        self.output_label.setAlignment(Qt.AlignmentFlag.AlignBottom)
+        # self.output_label = QLabel("Sentiment: None", self)
+        # self.output_label.setAlignment(Qt.AlignmentFlag.AlignBottom)
 
         self.input_field = QLineEdit(self)
         layout.addWidget(self.input_field)
